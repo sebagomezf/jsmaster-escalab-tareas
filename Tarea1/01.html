@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tarea 1</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <main class="wrapper"> 
+        <h1 class="page__title">Chequear si es número Par o Impar</h1>
+        
+        <div class="page__form">
+            
+            <div class="input-field">
+                <input id="numero" type="text" class="page__input">
+                <label for="numero">Número</label>
+            </div>
+            
+            <a class="waves-effect waves-light btn page__button" onclick="checkNumber()">Checkear</a>
+        </div>
+        
+        <p class="page__text">
+            El Número <span class="page__number"></span> <span class="page__number-type"></span>
+        </p>
+        
+    </main>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+    <script src="01.js"></script>
+</body>
+</html>
